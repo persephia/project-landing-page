@@ -24,4 +24,9 @@
     background-color: #344e41;
     color: white;
     font-family: 'Unna', serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-height: 40px;
 }
