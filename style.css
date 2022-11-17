@@ -1,0 +1,27 @@
+.header {
+    background-color: #3a5a40;
+    color: white;
+    font-family: 'Unna', serif;
+}
+
+.tile-holder {
+    background-color: #DAD7CD;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.quote-holder {
+    background-color: #A3B18A;
+    color: #344e41;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.banner-holder {
+    background-color: #DAD7CD;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.footer {
+    background-color: #344e41;
+    color: white;
+    font-family: 'Unna', serif;
+}
