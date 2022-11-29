@@ -4,6 +4,53 @@
     font-family: 'Unna', serif;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    color: #A3B18A;
+}
+
+.menu-items {
+   list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li:hover {
+    color: #A3B18A;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.welcome-text {
+    max-width: 350px;
+    margin-right: 10px;
+}
+
+.header-img {
+    max-width: 350px;
+    height: auto;
+}
+
 .tile-holder {
     background-color: #DAD7CD;
     font-family: 'Abhaya Libre', serif;
