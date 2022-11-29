@@ -1,3 +1,7 @@
+/* --------------------- */
+/* HEADER SECTION STYLES */
+/* --------------------- */
+
 .header {
     background-color: #3a5a40;
     color: white;
@@ -46,15 +50,52 @@ li:hover {
     margin-right: 10px;
 }
 
+button {
+    font-family: 'Abhaya Libre', serif;
+    background-color: #A3B18A;
+    border-radius: 40px;
+    height: 30px;
+    width: 100px;
+}
+
 .header-img {
     max-width: 350px;
     height: auto;
 }
 
-.tile-holder {
+/* --------------------- */
+/* TILE SECTION STYLES */
+/* --------------------- */
+
+.tile-section {
     background-color: #DAD7CD;
     font-family: 'Abhaya Libre', serif;
+    display: flex;
+    flex-direction: column;
 }
+
+.tile-header {
+    text-align: center;
+}
+
+.tile-holder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tile-img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #344e41;
+    border-radius: 10px;
+}
+
+.tile-txt {
+    font-size: 11px;
+    max-width: 200px;
+}
+
+/* QUOTE SECTION STYLES */
 
 .quote-holder {
     background-color: #A3B18A;
@@ -62,11 +103,19 @@ li:hover {
     font-family: 'Abhaya Libre', serif;
 }
 
+/* --------------------- */
+/* BANNER SECTION STYLES */
+/* --------------------- */
+
 .banner-holder {
     background-color: #DAD7CD;
     font-family: 'Abhaya Libre', serif;
 }
 
+
+/* --------------------- */
+/* FOOTER SECTION STYLES */
+/* --------------------- */
 .footer {
     background-color: #344e41;
     color: white;
