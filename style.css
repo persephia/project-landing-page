@@ -103,6 +103,22 @@ button {
     font-family: 'Abhaya Libre', serif;
 }
 
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.quote-text {
+    max-width: 600px;
+}
+
+.quote-source {
+    text-align: right;
+}
+
 /* --------------------- */
 /* BANNER SECTION STYLES */
 /* --------------------- */
